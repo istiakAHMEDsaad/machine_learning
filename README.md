@@ -8,7 +8,7 @@
 5. Extract cuDNN 8.1 then copy (bin, include, lib) from cudnn file then paste it on `c:\Program File\Nvidia GPU Computing Toolkit\CUDA\11.2\`
 6. Specific tensorflow version 2.10(last version for windows native gpu) if you need latest version you need wsl or Linux OS `pip install tensorflow==2.10`
 
-# How to setup environment?
+# How to setup environment? (easy mode just run [requirements.txt](https://github.com/istiakAHMEDsaad/machine_learning/blob/main/requirements.txt))
 
 - Install python (3.9, 3.10) recommended
 - Create a folder then open terminal (windows "cmd or poweshell") (mac or linux default terminal)
@@ -42,4 +42,4 @@
   print(tf.__version__)
   print(tf.config.list_physical_devices("GPU"))
   ```
-
+### For easy mode: download [requirements.txt](https://github.com/istiakAHMEDsaad/machine_learning/blob/main/requirements.txt) then run `pip install -r requirements.txt`
