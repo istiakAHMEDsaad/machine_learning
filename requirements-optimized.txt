@@ -1,0 +1,48 @@
+# ---- CORE ML & DL ----
+tensorflow==2.10.0
+keras==2.10.0
+scikit-learn==1.2.2
+xgboost==1.7.6
+lightgbm==4.1.0
+
+# ---- TORCH (compatible with numpy 1.23) ----
+torch==1.13.1
+torchvision==0.14.1
+torchaudio==0.13.1
+
+# ---- NUMPY & LOW-LEVEL DEP ----
+numpy==1.23.5
+scipy==1.9.3
+h5py==3.8.0
+protobuf==3.19.6
+
+# ---- DATA ANALYSIS ----
+pandas==2.0.3
+matplotlib==3.7.2
+seaborn==0.13.2
+
+# ---- IMAGE PROCESSING ----
+opencv-python==4.6.0.66
+scikit-image==0.19.3
+imageio==2.31.1
+
+# ---- MODEL MANAGEMENT ----
+joblib==1.3.2
+
+# ---- NLP (optional but useful) ----
+nltk==3.8.1
+
+# ---- FEATURE ENGINEERING ----
+category-encoders==2.6.2
+imbalanced-learn==0.10.1
+
+# ---- UTILITIES ----
+tqdm==4.66.1
+pyyaml==6.0.1
+
+# ---- JUPYTER ----
+jupyterlab==4.0.5
+
+# ---- LOGGING / TRACKING ----
+mlflow==2.7.0
+optuna==3.4.0
