@@ -1,3 +1,5 @@
 desktop.ini
 venv
 Image_Classification_CNN_02/dataset
+Capston-Brain-Stroke/datasets
+Capston-Brain-Stroke/segmentation_data
